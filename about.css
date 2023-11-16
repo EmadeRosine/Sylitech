@@ -1,0 +1,18 @@
+.About{
+    margin: 0;
+    padding: 0;
+}
+
+.about{
+    background: linear-gradient(135deg, #252628, #17181a);
+}
+.about .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5em;
+}
+.about img{
+    width: 50%;
+    filter: drop-shadow(0 0 1.5em rgba(0,0,0,0.5));
+}
